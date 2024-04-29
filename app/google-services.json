@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "883738191330",
+    "project_id": "dabangdeshnews",
+    "storage_bucket": "dabangdeshnews.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883738191330:android:e0953cd5227751eee545bb",
+        "android_client_info": {
+          "package_name": "com.app.dabangdeshnews"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvTY-NKDZWJHvRHHzpBHjyn0jd70dOh10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
