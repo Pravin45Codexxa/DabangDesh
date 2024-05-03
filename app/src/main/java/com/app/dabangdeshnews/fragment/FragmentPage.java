@@ -163,7 +163,7 @@ public class FragmentPage extends Fragment {
     private void displayApiResult(final List<Post> items) {
         adapterPage.insertData(items);
         swipeProgress(false);
-        if (items.size() == 1) {
+        if (items.size() == 2) {
             showNoItemView(true);
         }
     }

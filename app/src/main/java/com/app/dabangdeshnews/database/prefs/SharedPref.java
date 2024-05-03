@@ -17,6 +17,8 @@ public class SharedPref {
         editor = sharedPreferences.edit();
     }
 
+
+
     public void saveBlogCredentials(String bloggerId, String apiKey) {
         editor.putString("blogger_id", bloggerId);
         editor.putString("api_key", apiKey);

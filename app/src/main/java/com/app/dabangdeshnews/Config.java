@@ -5,8 +5,7 @@ import com.app.dabangdeshnews.util.Constant;
 public class Config {
 
     //please check the documentation for the guide to generate your access key
-    public static final String ACCESS_KEY = "WVVoU01HTklUVFpNZVRsclkyMXNNbHBUTlc1aU1qbHVZa2RWZFZreU9YUk1NbHB3WWtkVmRscERPSGhOUmtwQ1pEQldiVnBJY0dsT2ExcEVZa1JrY2s5SFRYbFdSV014WW10S2VrMUZaRTVQUlhoTlpGZHJkbVJ0Ykd4a2Vqa3hZek5CT1dNeWFHaGpiV3gxV2pFNWFHTklRbk5oVjA1b1pFZHNkbUpyYkd0WU1rNTJZbE0xYUdOSVFYVmFSMFpwV1ZjMWJscEhWbnBoUnpWc1pETk9abGxZUW5kaVIyeHFXVmhTY0dJeU5VcGFSamwzV2xoS2VtSXlOV2hpU0U1MlpGY3hOVmxSUFQwPQ==";
-    //app UI design
+    public static final String ACCESS_KEY = "WVVoU01HTklUVFpNZVRsclkyMXNNbHBUTlc1aU1qbHVZa2RWZFZreU9YUk1NbHB3WWtkVmRscERPSGhsUm1SNVdqSmFSbEY2Vm1wYWJHZDVUbXRXTkZSVmVFOVNTR1I0VG1rd05VMHpTa3BUTTJSV1VUQm5kbVJ0Ykd4a2Vqa3hZek5CT1ZwSVNuQmtiVlptWWtkc2RXRXhPV2hqU0VKellWZE9hR1JIYkhaaWEyeHJXREpPZG1KVE5XaGpTRUYxV2tkR2FWbFhOVzVhUjFaNllVYzFiR1F6VG1aWldFSjNZa2RzYWxsWVVuQmlNalZLV2tZNWQxcFlTbnBpTWpWb1lraE9kbVJYTVRWWlVUMDk=";
     public static final boolean ENABLE_NEW_APP_DESIGN = true;
 
     //if set false, the app will use settings icon from drawable-hdpi folder

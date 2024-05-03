@@ -133,7 +133,7 @@ public class AdapterPage extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             } else {
                 vItem.thumbnailImage.setImageResource(R.drawable.bg_button_transparent);
                 vItem.txtAlphabet.setVisibility(View.VISIBLE);
-                vItem.txtAlphabet.setText(p.title.substring(0, 1));
+               /* vItem.txtAlphabet.setText(p.title.substring(0, 1));*/
             }
 
             vItem.lytParent.setOnClickListener(view -> {

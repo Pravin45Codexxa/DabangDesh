@@ -1,6 +1,5 @@
 package com.app.dabangdeshnews.activity;
 
-import static com.app.dabangdeshnews.Config.DELAY_SPLASH;
 import static com.solodroid.ads.sdk.util.Constant.ADMOB;
 import static com.solodroid.ads.sdk.util.Constant.APPLOVIN;
 import static com.solodroid.ads.sdk.util.Constant.APPLOVIN_MAX;
@@ -139,8 +138,10 @@ public class ActivitySplash extends AppCompatActivity {
     }
 
     private void displayApiResults(CallbackConfig resp) {
+
         if (resp != null) {
             app = resp.app;
+            Log.d("sharedyuuyi","fwewd" + app.privacy_policy_url);
             ads = resp.ads;
             blog = resp.blog;
             customCategory = resp.custom_category;
@@ -188,6 +189,7 @@ public class ActivitySplash extends AppCompatActivity {
 
             public void onFailure(@NonNull Call<CallbackLabel> call, @NonNull Throwable th) {
                 if (!call.isCanceled()) {
+
                     showAppOpenAdIfAvailable();
                 }
             }

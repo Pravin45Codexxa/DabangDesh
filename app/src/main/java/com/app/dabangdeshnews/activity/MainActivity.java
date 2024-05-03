@@ -87,6 +87,9 @@ public class MainActivity extends AppCompatActivity implements DefaultLifecycleO
         sharedPref = new SharedPref(this);
         adsPref = new AdsPref(this);
         tools = new Tools(this);
+
+
+
         if (Config.ENABLE_NEW_APP_DESIGN) {
             setContentView(R.layout.activity_main_new);
         } else {
@@ -495,7 +498,9 @@ public class MainActivity extends AppCompatActivity implements DefaultLifecycleO
                 intent = new Intent(getApplicationContext(), ActivitySettings.class);
             }
             startActivity(intent);
+
         });
     }
 
 }
+
